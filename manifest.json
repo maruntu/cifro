@@ -23,10 +23,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://dduarte.github.io/numberle/",
+  "start_url": "https://maruntu.github.io/cifro/",
   "background_color": "#a464aa",
   "display": "standalone",
   "theme_color": "#a464aa",
   "description": "Guess the CIFRO"
 }
-]]
