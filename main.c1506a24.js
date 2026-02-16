@@ -1402,7 +1402,7 @@ function random(seed) {
                 <div class="setting">
                   <div class="text">
                     <div class="title">Hard Mode</div>
-                    <div class="description">Any revealed hints must be used in subsequent guesses</div>
+                    <div class="description">Any clues you uncover must be carried forward and used in your next guesses.</div>
                   </div>
                   <div class="control">
                     <game-switch id="hard-mode" name="hard-mode"></game-switch>
@@ -1429,7 +1429,7 @@ function random(seed) {
             </div>
             <div id="footnote">
               
-              <div id="copyright">Numberle is the work of <a href="https://dduarte.github.io/numberle/" target="_blank">dduarte</a> </div>
+              <div id="copyright">CIFRO</div>
               <div>
                 <div id="puzzle-number"></div>
                 <div id="hash"></div>
@@ -3057,7 +3057,7 @@ function random(seed) {
                     </button>
                 </div>
                 <div class="share">
-                    <a href="https://www.buymeacoffee.com/dduarte" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 42px !important;width: 152px !important;" ></a>
+                    
                 </div>
             </div>`;
         var Ms = {
@@ -3492,7 +3492,6 @@ function random(seed) {
             <section>
               <div class="instructions">
                 <p>Guess the <strong>CIFRO</strong> in 6 tries.</p>
-                <p>This game is made by <strong><a href="https://dduarte.github.io/numberle/" target="blank" >dduarte</a></strong>.</p>
                 <p>Type a valid FIVE‑DIGIT number for every guess, and press Enter to submit.</p>
                 <p>After each guess, the tiles shift colors to reveal how close you are to cracking the number.</p>
                 <div class="examples">
@@ -3528,7 +3527,8 @@ function random(seed) {
                     <p>There’s no <strong>7</strong> anywhere in the code, no matter where you place it.</p>
                   </div>
                 </div>
-                <p><strong>A fresh CIFRO drops every single day—come back for a new challenge!<strong></p>
+                <p>A fresh CIFRO drops every single day—come back for a new challenge!</p>
+				<p><center><strong>A reimagined version of the original Numberle by <strong><a href="https://dduarte.github.io/numberle/" target="_blank">dduarte</a></strong>. Built with ❤️ for the logic puzzle community.</strong></center></p>
               </div>
             </section>`;
         var Hs = (function (e) {
