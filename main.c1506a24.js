@@ -1428,8 +1428,8 @@ function random(seed) {
               </section>
             </div>
             <div id="footnote">
-              <a href="https://www.buymeacoffee.com/dduarte" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-              <div id="copyright">Wordle is the work of Josh Wardle</div>
+              
+              <div id="copyright">Numberle is the work of <a href="https://dduarte.github.io/numberle/" target="_blank">dduarte</a> </div>
               <div>
                 <div id="puzzle-number"></div>
                 <div id="hash"></div>
@@ -1715,7 +1715,7 @@ function random(seed) {
                 .concat(1e3, ";\n  }\n  #system-toaster {\n    z-index: ")
                 .concat(
                     4e3,
-                    ';\n  }\n\n  #game {\n    width: 100%;\n    max-width: var(--game-max-width);\n    margin: 0 auto;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n  }\n  header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: var(--header-height);\n    color: var(--color-tone-1);\n    border-bottom: 1px solid var(--color-tone-4);\n  }\n  header .title {\n    font-weight: 700;\n    font-size: 36px;\n    letter-spacing: 0.2rem;\n    text-transform: uppercase;\n    text-align: center;\n    position: absolute;\n    left: 0;\n    right: 0;\n    pointer-events: none;\n  }\n\n  @media (max-width: 360px) {\n    header .title {\n      font-size: 22px;\n      letter-spacing: 0.1rem;\n    }\n  }\n\n  #board-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-grow: 1;\n    overflow: hidden;\n  }\n  #board {\n    display: grid;\n    grid-template-rows: repeat(6, 1fr);\n    grid-gap: 5px;\n    padding:10px;\n    box-sizing: border-box;\n  }\n  button.icon {\n    background: none;\n    border: none;\n    cursor: pointer;\n    padding: 0 4px;\n  }\n\n  #debug-tools {\n    position: absolute;\n    bottom: 0;\n  }\n\n  </style>\n  <game-theme-manager>\n    <div id="game">\n      <header>\n        <div class="menu">\n          <button id="help-button" class="icon" aria-label="help">\n            <game-icon icon="help"></game-icon>\n          </button>\n        </div>\n        <div class="title">\n         NUMBERLE\n        </div>\n        <div class="menu">\n          <button id="statistics-button" class="icon" aria-label="statistics">\n            <game-icon icon="statistics"></game-icon>\n          </button>\n          <button id="settings-button" class="icon" aria-label="settings">\n            <game-icon icon="settings"></game-icon>\n          </button>\n        </div>\n      </header>\n        <div id="board-container">\n          <div id="board"></div>\n        </div>\n        <game-keyboard></game-keyboard>\n        <game-modal></game-modal>\n        <game-page></game-page>\n        <div class="toaster" id="game-toaster"></div>\n        <div class="toaster" id="system-toaster"></div>\n    </div>\n  </game-theme-manager>\n  <div id="debug-tools"></div>\n'
+                    ';\n  }\n\n  #game {\n    width: 100%;\n    max-width: var(--game-max-width);\n    margin: 0 auto;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n  }\n  header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: var(--header-height);\n    color: var(--color-tone-1);\n    border-bottom: 1px solid var(--color-tone-4);\n  }\n  header .title {\n    font-weight: 700;\n    font-size: 36px;\n    letter-spacing: 0.2rem;\n    text-transform: uppercase;\n    text-align: center;\n    position: absolute;\n    left: 0;\n    right: 0;\n    pointer-events: none;\n  }\n\n  @media (max-width: 360px) {\n    header .title {\n      font-size: 22px;\n      letter-spacing: 0.1rem;\n    }\n  }\n\n  #board-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-grow: 1;\n    overflow: hidden;\n  }\n  #board {\n    display: grid;\n    grid-template-rows: repeat(6, 1fr);\n    grid-gap: 5px;\n    padding:10px;\n    box-sizing: border-box;\n  }\n  button.icon {\n    background: none;\n    border: none;\n    cursor: pointer;\n    padding: 0 4px;\n  }\n\n  #debug-tools {\n    position: absolute;\n    bottom: 0;\n  }\n\n  </style>\n  <game-theme-manager>\n    <div id="game">\n      <header>\n        <div class="menu">\n          <button id="help-button" class="icon" aria-label="help">\n            <game-icon icon="help"></game-icon>\n          </button>\n        </div>\n        <div class="title">\n         CIFRO\n        </div>\n        <div class="menu">\n          <button id="statistics-button" class="icon" aria-label="statistics">\n            <game-icon icon="statistics"></game-icon>\n          </button>\n          <button id="settings-button" class="icon" aria-label="settings">\n            <game-icon icon="settings"></game-icon>\n          </button>\n        </div>\n      </header>\n        <div id="board-container">\n          <div id="board"></div>\n        </div>\n        <game-keyboard></game-keyboard>\n        <game-modal></game-modal>\n        <game-page></game-page>\n        <div class="toaster" id="game-toaster"></div>\n        <div class="toaster" id="system-toaster"></div>\n    </div>\n  </game-theme-manager>\n  <div id="debug-tools"></div>\n'
                 );
         var Qa = document.createElement("template");
         Qa.innerHTML =
@@ -3041,7 +3041,7 @@ function random(seed) {
             </div>`;
         var Is = document.createElement("template");
         Is.innerHTML = `<div class="countdown">
-              <h1>Next NUMBERLE</h1>
+              <h1>Next CIFRO</h1>
               <div id="timer">
                 <div class="statistic-container">
                   <div class="statistic timer">
@@ -3491,10 +3491,10 @@ function random(seed) {
             </style>
             <section>
               <div class="instructions">
-                <p>Guess the <strong>NUMBERLE</strong> in 6 tries.</p>
-                <p>This is a silly adaptation of Josh Wardle's <strong><a href="https://www.powerlanguage.co.uk/wordle/" target="blank" title="@powerlanguish">Wordle</a></strong>.</p>
-                <p>Each guess must be a valid 5 digit number. Hit the enter button to submit.</p>
-                <p>After each guess, the color of the tiles will change to show how close your guess was to the number.</p>
+                <p>Guess the <strong>CIFRO</strong> in 6 tries.</p>
+                <p>This game is made by <strong><a href="https://dduarte.github.io/numberle/" target="blank" >dduarte</a></strong>.</p>
+                <p>Type a valid FIVE‑DIGIT number for every guess, and press Enter to submit.</p>
+                <p>After each guess, the tiles shift colors to reveal how close you are to cracking the number.</p>
                 <div class="examples">
                   <p><strong>Examples</strong></p>
                   <div class="example">
@@ -3505,7 +3505,7 @@ function random(seed) {
                       <game-tile letter="2"></game-tile>
                       <game-tile letter="0"></game-tile>
                     </div>
-                    <p>The digit <strong>3</strong> is in the number and in the correct spot.</p>
+                    <p>The digit <strong>3</strong> appears in the number and it’s already sitting in the correct position.</p>
                   </div>
                   <div class="example">
                     <div class="row">
@@ -3515,7 +3515,7 @@ function random(seed) {
                       <game-tile letter="3"></game-tile>
                       <game-tile letter="7"></game-tile>
                     </div>
-                    <p>The digit <strong>I</strong> is in the number but in the wrong spot.</p>
+                    <p>The digit <strong>1</strong> is part of the number, but you’ve placed it in the wrong position.</p>
                   </div>
                   <div class="example">
                     <div class="row">
@@ -3525,10 +3525,10 @@ function random(seed) {
                       <game-tile letter="7" evaluation="absent" reveal></game-tile>
                       <game-tile letter="2"></game-tile>
                     </div>
-                    <p>The digit <strong>7</strong> is not in the number in any spot.</p>
+                    <p>There’s no <strong>7</strong> anywhere in the code, no matter where you place it.</p>
                   </div>
                 </div>
-                <p><strong>A new NUMBERLE will be available each day!<strong></p>
+                <p><strong>A fresh CIFRO drops every single day—come back for a new challenge!<strong></p>
               </div>
             </section>`;
         var Hs = (function (e) {
